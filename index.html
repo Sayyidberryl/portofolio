@@ -103,6 +103,71 @@
 #sertifikat {
     scroll-margin-top: 90px;
 }
+/* =====================
+   RESPONSIVE FIX
+   ===================== */
+
+/* TABLET & MOBILE */
+@media (max-width: 991px) {
+
+    body {
+        padding-top: 70px;
+    }
+
+    .navbar {
+        height: auto;
+        padding: 15px 0;
+    }
+
+    .profile-section {
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    .profile-image {
+        margin-left: 0;        /* FIX UTAMA */
+        max-width: 250px;
+        margin-top: 20px;
+    }
+
+    h1.display-5 {
+        font-size: 2.2rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }
+}
+
+/* MOBILE ONLY */
+@media (max-width: 576px) {
+
+    .section-title {
+        font-size: 1.6rem;
+    }
+
+    .experience-card,
+    .project-item {
+        padding: 20px;
+    }
+
+    .project-image {
+        max-height: 180px;
+    }
+
+    .skill-icon {
+        font-size: 3rem;
+    }
+
+    footer p {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        width: 100%; /* tombol contact full width */
+    }
+}
+
 
     </style>
 </head>
